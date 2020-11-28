@@ -1,6 +1,1 @@
-<html>
-    <head>
-
-    </head>
-
-</html>
+console.log("Hello JavaScript");
