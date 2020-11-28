@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<head>
+    <title>test</title>
+</head>
+
+<body>
+    <script>
+        // 브라우저 실행시 모든 변수나 함수들이 로딩된다음 실행하는 함수.
+        window.onload = function () {
+            // 변수를 선언합니다.
+            var list = '';
+
+            // 연산자를 사용합니다.
+            list += '<ul>';
+            list += '   <li>Hello</li>';
+            list += '   <li>JavaScript..!</li>';
+            list += '</ul>';
+
+            // 문서를 출력합니다.
+            document.body.innerHTML = list;
+        }
+    </script>
+
+</body>
