@@ -1,0 +1,20 @@
+// 객체를 복제하는 함수입니다.
+function clone(obj) {
+    var output = {};
+    for (var i in obj) {
+        output[i] = obj[i];
+    }
+    return output;
+}
+
+// 테스트합니다.
+var original = { a: 10, b: 20 }; // 원본 객체
+var referenced = original; // 얕은 복사 객체
+var cloned = clone(original); // 깊은 복사 객체
+
+// 원본의 값 변경
+original.a = 20;
+
+// 확인
+console.log(JSON.stringify(referenced,null,2));
+console.log(JSON.stringify(cloned,null,2));
