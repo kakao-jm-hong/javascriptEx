@@ -1,1 +1,5 @@
-console.log('test');
+function Student(){
+
+}
+
+var Student = new Student();
