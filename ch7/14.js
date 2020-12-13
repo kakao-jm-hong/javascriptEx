@@ -4,3 +4,4 @@ function Square(length) {
 }
 
 Square.prototype = Rectangle.prototype;
+ 
