@@ -1,7 +1,7 @@
 var primitiveNumber = 273;
 
 primitiveNumber.method = function(){
-    return 'Primitive Method'
+    return 'Primitive Method';
 };
 
 var output = primitiveNumber.method() + '\n';

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<header>
+
+</header>
+
+<body>
+    <script>
+
+        var child = window.open('','','width=300, height=200');
+
+        if(child){
+            child.document.write('<h1>From Parent Window</h1>');
+        }else{
+            alert('팝업 차단을 해제해주세요.');
+        }
+    </script>
+</body>

@@ -7,4 +7,4 @@ array.forEach(function (element, index, array) {
     output += index + ': ' + element + ' -> ' + sum + '\n';
 });
 
-console.log(output);
+console.log(output)
