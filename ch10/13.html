@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Index</title>
+    <script>
+        // 문서 객체를 가져옵니다 
+        window.onload = function () {
+            var headers = document.getElementsByName('h1');
+
+            headers[0].innerHTML = 'with getElementsByTagName()';
+            headers[1].innerHTML = 'with getElementsByTagName()';
+
+            // 또는
+
+            for (var i = 0; i < headers.length; i++) {
+                headrs[i].innerHTML = 'with getElementsByTagName()';
+            }
+
+            // 아래는 안된다.
+            var output = '';
+            for (var i in headers) {
+                ouptut += i + '\n';
+            }
+            console.log(output);
+        };
+    </script>
+</head>
+
+<body>
+    <h1>header</h1>
+    <h1>header</h1>
+</body>
+
+</html>
